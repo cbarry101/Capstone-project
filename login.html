@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href = 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel = 'stylesheet' href = 'styles.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = 'header'>
+        <div class = 'container'>
+            <div class = 'navbar'>
+                <div class = 'logo'> 
+                      <img src = "MyPCParts/images/logo.png" width = '125px'>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href ="index.html">Home</a></li>
+                        <li><a href ="./products.html">Products</a></li>
+                        <li><a href ="./login.html">Login</a></li>
+                        <li><a href ="./myBuild.html">My Build</a></li>
+                    </ul>
+                </nav>
+                <img src = 'MyPCParts/images/cart.png' width = '30px' height = '30px'>
+            </div>
+        </div>
+    </div>
+    <div id = 'both'>
+    <form id = 'registration'>
+            <input type = 'text' placeholder = 'Enter a username' id ='usernameRegister'>
+            <input type = 'text' placeholder = 'Enter a password' id = 'passwordRegister'>
+            <button id = 'signUpButton'>Sign Up</button>
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form id = 'loginForm'>
+            <input type = 'text' placeholder = 'Username' id = 'loginUsername'>
+        <input type = 'text' placeholder = 'Password' id = 'loginPassword'>
+        <button id = 'logInButton'>Log in</button>
+        </form>
+</div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src = './login.js'></script> 
+</body>
+</html>
